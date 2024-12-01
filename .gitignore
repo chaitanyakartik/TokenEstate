@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Agoric-related files and directories
+.agoric/
+.agoric-wallet/
+
+# Build output and cache
+dist/
+out/
+build/
+.cache/
+
+# Static files cache
+*.log
+*.tmp
+*.seed
+
+# Coverage reports
+coverage/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.pid.lock
+
+# API-specific files (Optional: If you generate secrets or tokens during runtime)
+api/secrets.json
+
+# Deployment scripts or configurations that should not be tracked
+/scripts/deploy/*.config
+*.env
+
+# Agoric CLI specific outputs
+.agoric-cli/
